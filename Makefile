@@ -134,13 +134,13 @@ clean-data: 2012 2013 2014 2015 2016 2017 2018
 	$(call copy_csv_and_pdf,2017,"Lichtenberg\ Vornamen\ 2017","lichtenberg")
 	$(call copy_csv_and_pdf,2017,"Marzahn-Hellersdorf\ Vornamen\ 2017","marzahn-hellersdorf")
 	$(call copy_csv_and_pdf,2017,"Mitte\ Vornamen\ 2017","mitte")
-	$(call copy_csv_and_pdf,2017,"Neukölln\ Vornamen\ 2017","neukoelln")
+	$(call copy_csv_and_pdf,2017,"Neukölln\ Vornamen\ 2017","neukoelln")
 	$(call copy_csv_and_pdf,2017,"Pankow\ Vornamen\ 2017","pankow")
 	$(call copy_csv_and_pdf,2017,"Reinickendorf\ Vornamen\ 2017","reinickendorf")
 	$(call copy_csv_and_pdf,2017,"Spandau\ Vornamen\ 2017","spandau")
 	$(call copy_csv_and_pdf,2017,"Steglitz-Zehlendorf\ Vornamen\ 2017","steglitz-zehlendorf")
-	$(call copy_csv_and_pdf,2017,"Tempelhof-Schöneberg\ Vornamen\ 2017","tempelhof-schoeneberg")
-	$(call copy_csv_and_pdf,2017,"Treptow-Köpenick\ Vornamen\ 2017","treptow-koepenick")
+	$(call copy_csv_and_pdf,2017,"Tempelhof-Schöneberg\ Vornamen\ 2017","tempelhof-schoeneberg")
+	$(call copy_csv_and_pdf,2017,"Treptow-Köpenick\ Vornamen\ 2017","treptow-koepenick")
 	@echo "... restructure CSV"
 	@. bin/convert2017.sh ${TARGET}/2017
 	@echo "... remove non-names"
@@ -157,13 +157,13 @@ clean-data: 2012 2013 2014 2015 2016 2017 2018
 	$(call copy_csv_and_pdf,2018,"Lichtenberg\ Vornamen\ 2018","lichtenberg")
 	$(call copy_csv_and_pdf,2018,"Marzahn-Hellersdorf\ Vornamen\ 2018","marzahn-hellersdorf")
 	$(call copy_csv_and_pdf,2018,"Mitte\ Vornamen\ 2018","mitte")
-	$(call copy_csv_and_pdf,2018,"Neukölln\ Vornamen\ 2018","neukoelln")
+	$(call copy_csv_and_pdf,2018,"Neukölln\ Vornamen\ 2018","neukoelln")
 	$(call copy_csv_and_pdf,2018,"Pankow\ Vornamen\ 2018","pankow")
 	$(call copy_csv_and_pdf,2018,"Reinickendorf\ Vornamen\ 2018","reinickendorf")
 	$(call copy_csv_and_pdf,2018,"Spandau\ Vornamen\ 2018","spandau")
 	$(call copy_csv_and_pdf,2018,"Steglitz-Zehlendorf\ Vornamen\ 2018","steglitz-zehlendorf")
-	$(call copy_csv_and_pdf,2018,"Tempelhof-Schöneberg\ Vornamen\ 2018","tempelhof-schoeneberg")
-	$(call copy_csv_and_pdf,2018,"Treptow-Köpenick\ Vornamen\ 2018","treptow-koepenick")
+	$(call copy_csv_and_pdf,2018,"Tempelhof-Schöneberg\ Vornamen\ 2018","tempelhof-schoeneberg")
+	$(call copy_csv_and_pdf,2018,"Treptow-Köpenick\ Vornamen\ 2018","treptow-koepenick")
 	@echo "... restructure CSV"
 	@. bin/convert2017.sh ${TARGET}/2018
 	@echo "... remove non-names"
