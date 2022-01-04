@@ -69,6 +69,7 @@ clean-data: 2012 2013 2014 2015 2016 2017 2018
 	@cp ${SOURCE}/2014/pankow.csv ${TARGET}/2014/pankow.csv
 	@cp ${SOURCE}/2014/reinickendorf.csv ${TARGET}/2014/reinickendorf.csv
 	@cp ${SOURCE}/2014/spandau.csv ${TARGET}/2014/spandau.csv
+	@cp ${SOURCE}/2014/standesamt_i.csv ${TARGET}/2014/standesamt_i.csv
 	@cp ${SOURCE}/2014/steglitz-zehlendorf.csv ${TARGET}/2014/steglitz-zehlendorf.csv
 	@cp ${SOURCE}/2014/tempelhof-schoeneberg.csv ${TARGET}/2014/tempelhof-schoeneberg.csv
 	@cp ${SOURCE}/2014/treptow-koepenick.csv ${TARGET}/2014/treptow-koepenick.csv
@@ -95,6 +96,7 @@ clean-data: 2012 2013 2014 2015 2016 2017 2018
 	$(call copy_csv_and_pdf,2015,"steglitz-zehlendorf","steglitz-zehlendorf")
 	$(call copy_csv_and_pdf,2015,"tempelhof-schoeneberg","tempelhof-schoeneberg")
 	$(call copy_csv_and_pdf,2015,"treptow-koepenick","treptow-koepenick")
+	@cp ${SOURCE}/2015/standesamt-i.csv ${TARGET}/2015/standesamt_i.csv
 	@echo "... restructure CSV"
 	@. bin/convert2015.sh ${TARGET}/2015
 	@echo "... remove non-names"

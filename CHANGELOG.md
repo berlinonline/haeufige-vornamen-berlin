@@ -2,6 +2,9 @@
 
 ## Development
 
+- Add "Standesamt I" files to Makefile, lest they are deleted when running `clean-data`.
+- Make "Standesamt I" filenames consistent (`standesamt_i.csv`).
+
 ## 1.1.5
 
 - Add 2020 data and make targets.
