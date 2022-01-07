@@ -2,6 +2,12 @@
 
 ## Development
 
+## [1.1.8](https://github.com/berlinonline/haeufige-vornamen-berlin/releases/tag/1.1.8)
+
+_(2022-01-07)_
+
+- Add 2019 and 2020 to the `clean-data` make target.
+
 ## [1.1.7](https://github.com/berlinonline/haeufige-vornamen-berlin/releases/tag/1.1.7)
 
 _(2022-01-07)_

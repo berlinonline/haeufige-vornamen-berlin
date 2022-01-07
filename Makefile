@@ -6,7 +6,7 @@ define copy_csv_and_pdf
 	@cp "${SOURCE}/$(1)/$(2).pdf" "${TARGET}/$(1)/$(3).pdf"
 endef
 
-clean-data: 2012 2013 2014 2015 2016 2017 2018
+clean-data: 2012 2013 2014 2015 2016 2017 2018 2019 2020
 
 2012:
 	@echo "Prepare 2012 data" 
