@@ -2,6 +2,13 @@
 
 ## Development
 
+## [1.1.7](https://github.com/berlinonline/haeufige-vornamen-berlin/releases/tag/1.1.7)
+
+_(2022-01-07)_
+
+- Add "von", "van", "zur" to list of non-name strings.
+- Add missing Standesamt I file for 2015 to repo.
+
 ## [1.1.6](https://github.com/berlinonline/haeufige-vornamen-berlin/releases/tag/1.1.6)
 
 _(2022-01-04)_
