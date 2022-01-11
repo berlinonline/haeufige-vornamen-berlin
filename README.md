@@ -126,6 +126,9 @@ de
 do
 dela
 oğlu
+von
+zu
+...
 ```
 
 Auch diese Einträge werden aus den Listen entfernt.
@@ -155,6 +158,7 @@ Z.Zt. existieren folgende Datensätze:
 - [Liste der häufigen Vornamen 2018](https://daten.berlin.de/datensaetze/liste-der-häufigen-vornamen-2018)
 - [Liste der häufigen Vornamen 2019](https://daten.berlin.de/datensaetze/liste-der-häufigen-vornamen-2019)
 - [Liste der häufigen Vornamen 2020](https://daten.berlin.de/datensaetze/liste-der-häufigen-vornamen-2020)
+- [Liste der häufigen Vornamen 2021](https://daten.berlin.de/datensaetze/liste-der-häufigen-vornamen-2021)
 
 ## Lizenz
 
@@ -173,4 +177,4 @@ In beiden Fällen muss die URL des Repositories in der Quellenangabe angegeben w
 
 Aller im Repository enthaltener Quellcode ist unter der [MIT Lizenz](LICENSE) veröffentlicht.
 
-Last changed: 2022-01-07
+Last changed: 2022-01-11
