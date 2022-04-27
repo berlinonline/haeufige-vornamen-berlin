@@ -11,7 +11,12 @@ In diesem Repository befinden sich beide Versionen der Daten:
 
 ## Struktur der Daten
 
-Für jedes Jahr existiert ein Ordner, in dem jeweils für jeden Bezirk eine CSV-Datei mit den Namenshäufigkeiten liegt (mit `,` als Trennzeichen). Diese CSV-Dateien enthalten die kompletten Listen aller vergebenen Namen.
+Für jedes Jahr existiert ein Ordner, in dem jeweils für jeden Bezirk eine CSV-Datei mit den Namenshäufigkeiten liegt (mit `,` als Trennzeichen).
+Diese CSV-Dateien enthalten die kompletten Listen aller vergebenen Namen.
+
+In manchen Jahren gibt es zusätzlich zu den Bezirken noch Daten zum [Standesamt I](https://www.berlin.de/labo/buergerdienste/standesamt-i-in-berlin/) – dabei handelt es sich um ein besonderes Standesamt, das keinem Bezirk zugeordnet ist.
+Das Standesamt I hat verschiedene Aufgaben, von denen hier besonders die _„Beurkundung von Geburten Deutscher im Ausland, die niemals einen Inlandswohnsitz hatten“_ von Bedeutung ist.
+
 
 Seit 2015 gibt es zusätzlich noch für jeden Bezirk eine PDF-Datei mit den am häufigsten vergebenen Namen.
 
@@ -177,4 +182,4 @@ In beiden Fällen muss die URL des Repositories in der Quellenangabe angegeben w
 
 Aller im Repository enthaltener Quellcode ist unter der [MIT Lizenz](LICENSE) veröffentlicht.
 
-Last changed: 2022-01-11
+Last changed: 2022-04-27

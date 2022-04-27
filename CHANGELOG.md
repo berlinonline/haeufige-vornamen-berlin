@@ -2,6 +2,12 @@
 
 ## Development
 
+## [1.1.10](https://github.com/berlinonline/haeufige-vornamen-berlin/releases/tag/1.1.10)
+
+_(2022-04-27)_
+
+- Add some information on "Standesamt I", thanks [@DerTee](https://github.com/DerTee)!
+
 ## [1.1.9](https://github.com/berlinonline/haeufige-vornamen-berlin/releases/tag/1.1.9)
 
 _(2022-01-11)_
