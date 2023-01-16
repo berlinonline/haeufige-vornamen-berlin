@@ -2,6 +2,13 @@
 
 ## Development
 
+## [1.1.11](https://github.com/berlinonline/haeufige-vornamen-berlin/releases/tag/1.1.11)
+
+_(2023-01-16)_
+
+- Add 2022 data and make targets, adjust README.
+- Add "der", "del", "wegen", "Vornamen!" to list of non-name strings.
+
 ## [1.1.10](https://github.com/berlinonline/haeufige-vornamen-berlin/releases/tag/1.1.10)
 
 _(2022-04-27)_

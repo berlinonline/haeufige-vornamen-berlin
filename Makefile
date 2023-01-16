@@ -6,7 +6,7 @@ define copy_csv_and_pdf
 	@cp "${SOURCE}/$(1)/$(2).pdf" "${TARGET}/$(1)/$(3).pdf"
 endef
 
-clean-data: 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021
+clean-data: 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022
 
 2012:
 	@echo "Prepare 2012 data" 
@@ -253,6 +253,41 @@ clean-data: 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021
 	@. bin/convert2017.sh ${TARGET}/2021
 	@echo "... remove non-names"
 	@. bin/remove_non_names.sh ${TARGET}/2021
+
+2022:
+	@echo "Prepare 2022 data" 
+	@echo "... set up target folder"
+	@rm -rf ${TARGET}/2022
+	@mkdir -p ${TARGET}/2022
+	@echo "... copy and rename source files"
+	@cp ${SOURCE}/2022/C.-W.\ Vornamenstatistik_2022-01-01_2022-12-31.csv ${TARGET}/2022/charlottenburg-wilmersdorf.csv
+	@cp ${SOURCE}/2022/F.-K.\ Vornamenstatistik_2022-01-01_2022-12-31.csv ${TARGET}/2022/friedrichshain-kreuzberg.csv
+	@cp ${SOURCE}/2022/Libg\ Vornamenstatistik_2022-01-01_2022-12-31.csv ${TARGET}/2022/lichtenberg.csv
+	@cp ${SOURCE}/2022/M.-H.\ Vornamenstatistik_2022-01-01_2022-12-31.csv ${TARGET}/2022/marzahn-hellersdorf.csv
+	@cp ${SOURCE}/2022/Mitte\ Vornamenstatistik_2022-01-01_2022-12-31.csv ${TARGET}/2022/mitte.csv
+	@cp ${SOURCE}/2022/Neukölln\ Vornamenstatistik_2022-01-01_2022-12-31.csv ${TARGET}/2022/neukoelln.csv
+	@cp ${SOURCE}/2022/Pankow\ Vornamenstatistik_2022-01-01_2022-12-31.csv ${TARGET}/2022/pankow.csv
+	@cp ${SOURCE}/2022/Rdf\ Vornamenstatistik_2022-01-01_2022-12-31.csv ${TARGET}/2022/reinickendorf.csv
+	@cp ${SOURCE}/2022/S.-Z.\ Vornamenstatistik_2022-01-01_2022-12-31.csv ${TARGET}/2022/steglitz-zehlendorf.csv
+	@cp ${SOURCE}/2022/Spandau\ Vornamenstatistik_2022-01-01_2022-12-31.csv ${TARGET}/2022/spandau.csv
+	@cp ${SOURCE}/2022/T.-K.\ Vornamenstatistik_2022-01-01_2022-12-31.csv ${TARGET}/2022/treptow-koepenick.csv
+	@cp ${SOURCE}/2022/T.-S.\ Vornamenstatistik_2022-01-01_2022-12-31.csv ${TARGET}/2022/tempelhof-schoeneberg.csv
+	@cp ${SOURCE}/2022/C.-W.\ Vornamenstatistik_2022-01-01_2022-12-31.pdf ${TARGET}/2022/charlottenburg-wilmersdorf.pdf
+	@cp ${SOURCE}/2022/F.-K.\ Vornamenstatistik_2022-01-01_2022-12-31.pdf ${TARGET}/2022/friedrichshain-kreuzberg.pdf
+	@cp ${SOURCE}/2022/Libg\ Vornamenstatistik_2022-01-01_2022-12-31.pdf ${TARGET}/2022/lichtenberg.pdf
+	@cp ${SOURCE}/2022/M.-H.\ Vornamenstatistik_2022-01-01_2022-12-31.pdf ${TARGET}/2022/marzahn-hellersdorf.pdf
+	@cp ${SOURCE}/2022/Mitte\ Vornamenstatistik_2022-01-01_2022-12-31.pdf ${TARGET}/2022/mitte.pdf
+	@cp ${SOURCE}/2022/Neukölln\ Vornamenstatistik_2022-01-01_2022-12-31.pdf ${TARGET}/2022/neukoelln.pdf
+	@cp ${SOURCE}/2022/Pankow\ Vornamenstatistik_2022-01-01_2022-12-31.pdf ${TARGET}/2022/pankow.pdf
+	@cp ${SOURCE}/2022/Rdf\ Vornamenstatistik_2022-01-01_2022-12-31.pdf ${TARGET}/2022/reinickendorf.pdf
+	@cp ${SOURCE}/2022/S.-Z.\ Vornamenstatistik_2022-01-01_2022-12-31.pdf ${TARGET}/2022/steglitz-zehlendorf.pdf
+	@cp ${SOURCE}/2022/Spandau\ Vornamenstatistik_2022-01-01_2022-12-31.pdf ${TARGET}/2022/spandau.pdf
+	@cp ${SOURCE}/2022/T.-K.\ Vornamenstatistik_2022-01-01_2022-12-31.pdf ${TARGET}/2022/treptow-koepenick.pdf
+	@cp ${SOURCE}/2022/T.-S.\ Vornamenstatistik_2022-01-01_2022-12-31.pdf ${TARGET}/2022/tempelhof-schoeneberg.pdf
+	@echo "... restructure CSV"
+	@. bin/convert2017.sh ${TARGET}/2022
+	@echo "... remove non-names"
+	@. bin/remove_non_names.sh ${TARGET}/2022
 
 create-2018:
 	@echo "Create 2018 dataset"
