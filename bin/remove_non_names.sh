@@ -6,7 +6,7 @@ function join_by { local IFS="$1"; shift; echo "$*"; }
 CSV_FOLDER=$1
 
 # strings that show up as names, but do not appear to be given names for various reasons
-non_names=("al" "bestimmt" "bin" "da" "de" "dela" "do" "el" "kein" "keinen" "la" "nicht" "noch" "noche" "oğlu" "Vorname" "Familienname" "\(Vorname[^;]*" "und" "ohne" "von" "van" "zur" "der" "del" "wegen" "Vornamen!")
+non_names=("al" "bestimmt" "bin" "da" "de" "dela" "do" "el" "kein" "keinen" "la" "nicht" "noch" "noche" "oğlu" "Vorname" "Familienname" "\(Vorname[^;]*" "und" "ohne" "von" "van" "zur" "der" "del" "wegen" "Vornamen!" "(Eigenname)" "(Großvatersname)" "(Mittelname)" "(Vatersname)" "-" "'evič")
 # What about variants like gyzy, gizi, qizi, kyzy? What is that?
 
 

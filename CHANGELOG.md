@@ -2,6 +2,8 @@
 
 ## Development
 
+- Add "(Eigenname)", "(Großvatersname)", "(Mittelname)", "(Vatersname)", "-", "'evič" to list of non-name strings.
+
 ## [1.1.11](https://github.com/berlinonline/haeufige-vornamen-berlin/releases/tag/1.1.11)
 
 _(2023-01-16)_
