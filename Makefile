@@ -306,3 +306,17 @@ create-2020:
 	@. bin/create_dataset.sh 2020
 	@echo
 	@echo "... done"
+
+data/temp/all_names.txt: data/temp
+	@echo "creating long list of all names from all years and districts ..."
+	@csvstack data/cleaned/*/*.csv | csvcut -c 1 -K 1 | sort | uniq > $@
+
+clean: clean-temp
+
+clean-temp:
+	@echo "deleting temp folder ..."
+	@rm -rf data/temp
+
+data/temp:
+	@echo "creating temp directory ..."
+	@mkdir -p data/temp
