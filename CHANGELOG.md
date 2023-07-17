@@ -3,6 +3,7 @@
 ## Development
 
 - Add "(Eigenname)", "(Großvatersname)", "(Mittelname)", "(Vatersname)", "-", "'evič" to list of non-name strings.
+- Remove commas from "Leo,", "Linda-Marlice,", "Max,".
 
 ## [1.1.11](https://github.com/berlinonline/haeufige-vornamen-berlin/releases/tag/1.1.11)
 
