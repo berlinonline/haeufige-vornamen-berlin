@@ -148,6 +148,17 @@ Auch leere Strings sind nicht als Namen zugelassen und werden entfernt, z.B.
 ;1;w;2
 ```
 
+### Vornamen mit nur einem Buchstaben
+
+Es gibt Fälle, wo als Vorname ein einzelner Buchstabe (oder ein Buchstabe mit Punkt) angegeben ist.
+Beispiele sind `A`, `A.`, `B.`, `C.`, `H`, `I`, `K.`, `S`, `X`, `Ý` oder `ý`.
+Im Gegensatz zu den anderen, oben genannten Fällen handelt es sich nicht um eindeutige Fehleingaben, sondern 
+
+a. der Name war zum Zeitpunkt der Eingabe nicht eindeutig bekannt, oder
+b. es handelt sich tatsächlich um einen Namen (evtl. möglich, wenn es nicht der erste Vorname ist).
+
+Wegen der unklaren Beurteilung dieses Fälle werden sich derzeit nicht entfernt.
+
 ## Veröffentlichung im Datenportal
 
 Für jedes Jahr wird ein separater Datensatz auf daten.berlin.de veröffentlicht, der die bereinigten CSV- (und ggfs. PDF-) Dateien als Datenressourcen enthält.

@@ -11,6 +11,7 @@ _(2023-09-07)_
 - Remove commas from "Leo,", "Linda-Marlice,", "Max,".
 - Add make target to generate list of all names.
 - Add script to generate list of top names for each district for a given year.
+- Discuss the case of one-letter-names in README.md.
 
 ## [1.1.11](https://github.com/berlinonline/haeufige-vornamen-berlin/releases/tag/1.1.11)
 
