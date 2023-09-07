@@ -6,6 +6,7 @@
 - Re-implement `remove_non_names` script in Python, call Python script from old shell script.
 - Remove commas from "Leo,", "Linda-Marlice,", "Max,".
 - Add make target to generate list of all names.
+- Add script to generate list of top names for each district for a given year.
 
 ## [1.1.11](https://github.com/berlinonline/haeufige-vornamen-berlin/releases/tag/1.1.11)
 
