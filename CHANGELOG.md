@@ -2,6 +2,10 @@
 
 ## Development
 
+## [1.2.0](https://github.com/berlinonline/haeufige-vornamen-berlin/releases/tag/1.2.0)
+
+_(2023-09-07)_
+
 - Add "(Eigenname)", "(Großvatersname)", "(Mittelname)", "(Vatersname)", "-", "'evič" to list of non-name strings (thanks [@traut21](https://github.com/traut21)).
 - Re-implement `remove_non_names` script in Python, call Python script from old shell script.
 - Remove commas from "Leo,", "Linda-Marlice,", "Max,".
