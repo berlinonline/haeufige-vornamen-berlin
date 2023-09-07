@@ -138,7 +138,7 @@ zu
 
 Auch diese Einträge werden aus den Listen entfernt.
 
-Die genaue Liste kann in dem Skript [remove_non_names.sh](bin/remove_non_names.sh) nachgesehen werden. Diese Liste wurde von uns nach bestem Wissen und Gewissen erstellt - wenn sie Fehler enthält (Namen fälschlicherweise entfernt, andere "Namen" noch nicht entfernt), freuen wir uns über [Feedback](https://github.com/berlinonline/haeufige-vornamen-berlin/issues)!
+Die genaue Liste kann in dem File [non_names.txt](conf/non_names.txt) nachgesehen werden. Diese Liste wurde von uns nach bestem Wissen und Gewissen erstellt - wenn sie Fehler enthält (Namen fälschlicherweise entfernt, andere "Namen" noch nicht entfernt), freuen wir uns über [Feedback](https://github.com/berlinonline/haeufige-vornamen-berlin/issues)!
 
 ### Entfernung von leeren Namen
 
@@ -165,6 +165,7 @@ Z.Zt. existieren folgende Datensätze:
 - [Liste der häufigen Vornamen 2020](https://daten.berlin.de/datensaetze/liste-der-häufigen-vornamen-2020)
 - [Liste der häufigen Vornamen 2021](https://daten.berlin.de/datensaetze/liste-der-häufigen-vornamen-2021)
 - [Liste der häufigen Vornamen 2022](https://daten.berlin.de/datensaetze/liste-der-häufigen-vornamen-2022)
+
 ## Lizenz
 
 ### Daten
@@ -182,4 +183,4 @@ In beiden Fällen muss die URL des Repositories in der Quellenangabe angegeben w
 
 Aller im Repository enthaltener Quellcode ist unter der [MIT Lizenz](LICENSE) veröffentlicht.
 
-Last changed: 2023-01-16
+Last changed: 2023-09-07

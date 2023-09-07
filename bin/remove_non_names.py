@@ -10,7 +10,7 @@ parser.add_argument('--non_names',
 args = parser.parse_args()
 
 with open(args.non_names) as file:
-    non_names = [line.rstrip() for line in file]
+    non_names = [f"{line.rstrip()}," for line in file]
 
 with open(args.source) as source_file:
     for line in source_file:
