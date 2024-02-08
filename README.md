@@ -154,10 +154,10 @@ Es gibt Fälle, wo als Vorname ein einzelner Buchstabe (oder ein Buchstabe mit P
 Beispiele sind `A`, `A.`, `B.`, `C.`, `H`, `I`, `K.`, `S`, `X`, `Ý` oder `ý`.
 Im Gegensatz zu den anderen, oben genannten Fällen handelt es sich nicht um eindeutige Fehleingaben, sondern 
 
-a. der Name war zum Zeitpunkt der Eingabe nicht eindeutig bekannt, oder
-b. es handelt sich tatsächlich um einen Namen (evtl. möglich, wenn es nicht der erste Vorname ist).
+1. der Name war zum Zeitpunkt der Eingabe nicht eindeutig bekannt, oder
+1. es handelt sich tatsächlich um einen Namen (evtl. möglich, wenn es nicht der erste Vorname ist).
 
-Wegen der unklaren Beurteilung dieses Fälle werden sich derzeit nicht entfernt.
+Wegen der unklaren Beurteilung dieser Fälle werden diese derzeit nicht entfernt.
 
 ## Veröffentlichung im Datenportal
 
