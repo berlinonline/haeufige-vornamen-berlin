@@ -2,6 +2,12 @@
 
 ## Development
 
+## [1.2.1](https://github.com/berlinonline/haeufige-vornamen-berlin/releases/tag/1.2.1)
+
+_(2024-02-08)_
+
+- Add 2023 data and make targets, adjust README.
+
 ## [1.2.0](https://github.com/berlinonline/haeufige-vornamen-berlin/releases/tag/1.2.0)
 
 _(2023-09-07)_

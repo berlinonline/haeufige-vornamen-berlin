@@ -6,10 +6,10 @@ define copy_csv_and_pdf
 	@cp "${SOURCE}/$(1)/$(2).pdf" "${TARGET}/$(1)/$(3).pdf"
 endef
 
-clean-data: 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022
+clean-data: 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023
 
 2012:
-	@echo "Prepare 2012 data" 
+	@echo "Prepare 2012 data"
 	@echo "... set up target folder"
 	@rm -rf ${TARGET}/2012
 	@mkdir -p ${TARGET}/2012
@@ -32,7 +32,7 @@ clean-data: 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022
 	@. bin/remove_non_names.sh ${TARGET}/2012
 
 2013:
-	@echo "Prepare 2013 data" 
+	@echo "Prepare 2013 data"
 	@echo "... set up target folder"
 	@rm -rf ${TARGET}/2013
 	@mkdir -p ${TARGET}/2013
@@ -55,7 +55,7 @@ clean-data: 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022
 	@. bin/remove_non_names.sh ${TARGET}/2013
 
 2014:
-	@echo "Prepare 2014 data" 
+	@echo "Prepare 2014 data"
 	@echo "... set up target folder"
 	@rm -rf ${TARGET}/2014
 	@mkdir -p ${TARGET}/2014
@@ -79,7 +79,7 @@ clean-data: 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022
 	@. bin/remove_non_names.sh ${TARGET}/2014
 
 2015:
-	@echo "Prepare 2015 data" 
+	@echo "Prepare 2015 data"
 	@echo "... set up target folder"
 	@rm -rf ${TARGET}/2015
 	@mkdir -p ${TARGET}/2015
@@ -103,7 +103,7 @@ clean-data: 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022
 	@. bin/remove_non_names.sh ${TARGET}/2015
 
 2016:
-	@echo "Prepare 2016 data" 
+	@echo "Prepare 2016 data"
 	@echo "... set up target folder"
 	@rm -rf ${TARGET}/2016
 	@mkdir -p ${TARGET}/2016
@@ -126,7 +126,7 @@ clean-data: 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022
 	@. bin/remove_non_names.sh ${TARGET}/2016
 
 2017:
-	@echo "Prepare 2017 data" 
+	@echo "Prepare 2017 data"
 	@echo "... set up target folder"
 	@rm -rf ${TARGET}/2017
 	@mkdir -p ${TARGET}/2017
@@ -149,7 +149,7 @@ clean-data: 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022
 	@. bin/remove_non_names.sh ${TARGET}/2017
 
 2018:
-	@echo "Prepare 2018 data" 
+	@echo "Prepare 2018 data"
 	@echo "... set up target folder"
 	@rm -rf ${TARGET}/2018
 	@mkdir -p ${TARGET}/2018
@@ -172,7 +172,7 @@ clean-data: 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022
 	@. bin/remove_non_names.sh ${TARGET}/2018
 
 2019:
-	@echo "Prepare 2019 data" 
+	@echo "Prepare 2019 data"
 	@echo "... set up target folder"
 	@rm -rf ${TARGET}/2019
 	@mkdir -p ${TARGET}/2019
@@ -195,7 +195,7 @@ clean-data: 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022
 	@. bin/remove_non_names.sh ${TARGET}/2019
 
 2020:
-	@echo "Prepare 2020 data" 
+	@echo "Prepare 2020 data"
 	@echo "... set up target folder"
 	@rm -rf ${TARGET}/2020
 	@mkdir -p ${TARGET}/2020
@@ -218,7 +218,7 @@ clean-data: 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022
 	@. bin/remove_non_names.sh ${TARGET}/2020
 
 2021:
-	@echo "Prepare 2021 data" 
+	@echo "Prepare 2021 data"
 	@echo "... set up target folder"
 	@rm -rf ${TARGET}/2021
 	@mkdir -p ${TARGET}/2021
@@ -255,7 +255,7 @@ clean-data: 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022
 	@. bin/remove_non_names.sh ${TARGET}/2021
 
 2022:
-	@echo "Prepare 2022 data" 
+	@echo "Prepare 2022 data"
 	@echo "... set up target folder"
 	@rm -rf ${TARGET}/2022
 	@mkdir -p ${TARGET}/2022
@@ -288,6 +288,41 @@ clean-data: 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022
 	@. bin/convert2017.sh ${TARGET}/2022
 	@echo "... remove non-names"
 	@. bin/remove_non_names.sh ${TARGET}/2022
+
+2023:
+	@echo "Prepare 2023 data"
+	@echo "... set up target folder"
+	@rm -rf ${TARGET}/2023
+	@mkdir -p ${TARGET}/2023
+	@echo "... copy and rename source files"
+	@cp ${SOURCE}/2023/C.-W.\ Vornamenstatistik_2023-01-01_2023-12-31.csv ${TARGET}/2023/charlottenburg-wilmersdorf.csv
+	@cp ${SOURCE}/2023/F.-K.\ Vornamenstatistik_2023-01-01_2023-12-31.csv ${TARGET}/2023/friedrichshain-kreuzberg.csv
+	@cp ${SOURCE}/2023/Libg\ Vornamenstatistik_2023-01-01_2023-12-31.csv ${TARGET}/2023/lichtenberg.csv
+	@cp ${SOURCE}/2023/M.-H.\ Vornamenstatistik_2023-01-01_2023-12-31.csv ${TARGET}/2023/marzahn-hellersdorf.csv
+	@cp ${SOURCE}/2023/Mitte\ Vornamenstatistik_2023-01-01_2023-12-31.csv ${TARGET}/2023/mitte.csv
+	@cp ${SOURCE}/2023/Nkn\ Vornamenstatistik_2023-01-01_2023-12-31.csv ${TARGET}/2023/neukoelln.csv
+	@cp ${SOURCE}/2023/Pankow\ Vornamenstatistik_2023-01-01_2023-12-31.csv ${TARGET}/2023/pankow.csv
+	@cp ${SOURCE}/2023/Rdf\ Vornamenstatistik_2023-01-01_2023-12-31.csv ${TARGET}/2023/reinickendorf.csv
+	@cp ${SOURCE}/2023/S.-Z.\ Vornamenstatistik_2023-01-01_2023-12-31.csv ${TARGET}/2023/steglitz-zehlendorf.csv
+	@cp ${SOURCE}/2023/Spandau\ Vornamenstatistik_2023-01-01_2023-12-31.csv ${TARGET}/2023/spandau.csv
+	@cp ${SOURCE}/2023/T.-K.\ Vornamenstatistik_2023-01-01_2023-12-31.csv ${TARGET}/2023/treptow-koepenick.csv
+	@cp ${SOURCE}/2023/T.-S.\ Vornamenstatistik_2023-01-01_2023-12-31.csv ${TARGET}/2023/tempelhof-schoeneberg.csv
+	@cp ${SOURCE}/2023/C.-W.\ Vornamenstatistik_2023-01-01_2023-12-31.pdf ${TARGET}/2023/charlottenburg-wilmersdorf.pdf
+	@cp ${SOURCE}/2023/F.-K.\ Vornamenstatistik_2023-01-01_2023-12-31.pdf ${TARGET}/2023/friedrichshain-kreuzberg.pdf
+	@cp ${SOURCE}/2023/Libg\ Vornamenstatistik_2023-01-01_2023-12-31.pdf ${TARGET}/2023/lichtenberg.pdf
+	@cp ${SOURCE}/2023/M.-H.\ Vornamenstatistik_2023-01-01_2023-12-31.pdf ${TARGET}/2023/marzahn-hellersdorf.pdf
+	@cp ${SOURCE}/2023/Mitte\ Vornamenstatistik_2023-01-01_2023-12-31.pdf ${TARGET}/2023/mitte.pdf
+	@cp ${SOURCE}/2023/Nkn\ Vornamenstatistik_2023-01-01_2023-12-31.pdf ${TARGET}/2023/neukoelln.pdf
+	@cp ${SOURCE}/2023/Pankow\ Vornamenstatistik_2023-01-01_2023-12-31.pdf ${TARGET}/2023/pankow.pdf
+	@cp ${SOURCE}/2023/Rdf\ Vornamenstatistik_2023-01-01_2023-12-31.pdf ${TARGET}/2023/reinickendorf.pdf
+	@cp ${SOURCE}/2023/S.-Z.\ Vornamenstatistik_2023-01-01_2023-12-31.pdf ${TARGET}/2023/steglitz-zehlendorf.pdf
+	@cp ${SOURCE}/2023/Spandau\ Vornamenstatistik_2023-01-01_2023-12-31.pdf ${TARGET}/2023/spandau.pdf
+	@cp ${SOURCE}/2023/T.-K.\ Vornamenstatistik_2023-01-01_2023-12-31.pdf ${TARGET}/2023/treptow-koepenick.pdf
+	@cp ${SOURCE}/2023/T.-S.\ Vornamenstatistik_2023-01-01_2023-12-31.pdf ${TARGET}/2023/tempelhof-schoeneberg.pdf
+	@echo "... restructure CSV"
+	@. bin/convert2017.sh ${TARGET}/2023
+	@echo "... remove non-names"
+	@. bin/remove_non_names.sh ${TARGET}/2023
 
 create-2018:
 	@echo "Create 2018 dataset"

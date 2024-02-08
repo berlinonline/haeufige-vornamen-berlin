@@ -176,6 +176,7 @@ Z.Zt. existieren folgende Datensätze:
 - [Liste der häufigen Vornamen 2020](https://daten.berlin.de/datensaetze/liste-der-häufigen-vornamen-2020)
 - [Liste der häufigen Vornamen 2021](https://daten.berlin.de/datensaetze/liste-der-häufigen-vornamen-2021)
 - [Liste der häufigen Vornamen 2022](https://daten.berlin.de/datensaetze/liste-der-häufigen-vornamen-2022)
+- [Liste der häufigen Vornamen 2023](https://daten.berlin.de/datensaetze/liste-der-häufigen-vornamen-2023)
 
 ## Lizenz
 
@@ -194,4 +195,4 @@ In beiden Fällen muss die URL des Repositories in der Quellenangabe angegeben w
 
 Aller im Repository enthaltener Quellcode ist unter der [MIT Lizenz](LICENSE) veröffentlicht.
 
-Last changed: 2023-09-07
+Last changed: 2024-02-08
